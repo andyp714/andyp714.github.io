@@ -18,6 +18,10 @@ body {
     font-size: 17px;
 }
 
+#navbar a.split{
+    float: right;
+}
+
 #navbar a:hover {
     background-color: rgb(169, 169, 169);
 }
