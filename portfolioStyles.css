@@ -31,3 +31,10 @@ body {
     color: white;
 }
 
+.hero-image {
+    background-image: url(hexpattern22-01.png);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
