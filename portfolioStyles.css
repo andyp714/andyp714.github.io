@@ -4,8 +4,10 @@ body {
 }
 
 #navbar {
+    z-index: 2;
     overflow: hidden;
-    background-color: aliceblue;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: rgb(223, 234, 245);
 }
 
 #navbar a {
@@ -32,7 +34,8 @@ body {
 }
 
 .hero-image {
-    background-image: url(hexpattern22-01.png);
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(hexpattern22-01.png);
     height: 50%;
     background-position: center;
     background-size: contain;
