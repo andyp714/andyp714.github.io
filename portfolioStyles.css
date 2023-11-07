@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+  
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,6 +63,41 @@ body {
     background-color: rgb(228, 242, 231);
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 4px -1px rgb(0, 0, 0, 0.5);
-    color: rgb(45, 62, 64);;
+    color: rgb(45, 62, 64);
+}
+
+h3 {
+    margin-left: 3%;
+    color: rgb(45, 62, 64);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.colleft {
+    width: 94%;
+    margin-left: 3%;
+}
+
+.colright {
+    position: absolute;
+    right: 3%;
+    width: 300px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
