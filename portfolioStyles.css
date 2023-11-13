@@ -101,3 +101,10 @@ h3 {
     clear: both;
 }
 
+footer {
+    padding-left: 3%;
+    padding-top: 1%;
+    height: 150px;
+    background-color: rgb(45, 62, 64);
+    color: rgb(228, 242, 231);
+}
