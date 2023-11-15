@@ -108,3 +108,16 @@ footer {
     background-color: rgb(45, 62, 64);
     color: rgb(228, 242, 231);
 }
+
+.portcol {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.portcontent {
+    background-color: rgb(228, 242, 231);
+    padding: 1%;
+    height: 500px;
+    box-shadow: 10px 10px 4px -1px rgb(0, 0, 0, 0.5)
+}
