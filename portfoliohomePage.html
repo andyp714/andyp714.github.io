@@ -1,24 +1,38 @@
+<!-- FlowerBox:
+    Author: Andy Pauley
+    Description: Personal Portfolio Page created for  CS-III assignment
+    Date: Worked on from 10/15 to 11/15
+    Bugs: Weird sizing when browser is shrunk, text goes over container box when window is too small. Elements overlap when window is to small
+    Challenges: Multiple Pages, Parallax Scrolling Background, Hero-image top of page, created my own custom background. Played with aesthetics, Functional sticky top nav bar
+    Sources: Consulted w3schools for HTML and CSS assistance, see google doc for sources.
+-->
+
+
+
 <html>
 <head>
+    <!--imports style sheet and sets title of page-->
     <link rel="stylesheet" href="portfolioStyles.css">
     <title>Andy Pauley</title>
 </head>
 </html>
 <body>
+    <!--Sets up navbar with links to other html pages-->
     <div id="navbar">
         <a class="active" href="portfoliohomePage.html">Home</a>
         <a class="split" href="portfoliocontactPage.html">Contact</a>
         <a class="split" href="portfolioaboutPage.html">About</a>
         <a class="split" href="portfolioprojectsPage.html">Projects</a>
     </div>
+    <!--Sets up hero  image centered on background, rectangle inside image to serve as background for text-->
     <div class="hero-image" style="margin-top: 47.33px;">
         <div class="hero-rect">
             <h2 style="margin-top: 10px; margin-bottom: 10px;">Hello, I'm Andrew Pauley</h2>
             <h1 style="margin-top: 10px; margin-bottom: 10px;">WELCOME TO MY WEBSITE</h1>
         </div>
     </div>
-    
     <h3>ABOUT/</h3>
+    <!--Two column div with one for text and other for image. Puts  image on top  of first column to get effect of image formatted to  the side-->
     <div class="row">
         <div class="column colleft" style="background-color: rgb(241, 246, 242); box-shadow: 10px 10px 4px -1px rgb(0, 0, 0, 0.5);">
             <div style="width: 70%">
@@ -26,14 +40,18 @@
             </div>
         </div>
         <div class="column colright" style="background-color:#bbbbbb00;">
+            <!--Sets up border radius with circular  image-->
             <img src="schoolpicture.jpg" style="border-radius: 50%; height: 280px; width: 280px;">
         </div>
     </div>
+    <!--Spacing between elements-->
     <br>
     <br>
     <h3>LINKS/</h3>
+    <!--Two column div, but without the overlayed second column-->
     <div class="row">
         <div class="column colleft" style="background-color: rgb(241, 246, 242); box-shadow: 10px 10px 4px -1px rgb(0, 0, 0, 0.5); height: 170px; padding: 10px;">
+            <!--Images with links-->
             <a href="https://www.linkedin.com/in/andrew-pauley-75b9a2268/" target="_blank"><img src="174857.png" style="height: 150px; width: 150px;"></a>
             <a href="https://github.com/andyp714" target="_blank"><img src="GitHub-logo.png" style="height: 150px; width: 150px; margin-left: 3%;"></a>
         </div>
@@ -41,11 +59,14 @@
     <br>
     <br>
     <h3>RESUME/</h3>
+    <!--Two column div, but without the overlayed second column-->
     <div class="row">
         <div class="column colleft" style="background-color: rgb(241, 246, 242); box-shadow: 10px 10px 4px -1px rgb(0, 0, 0, 0.5); height: 750px; padding: 10px;">
+            <!--Embedded pdf, so  it shows up with pdf interface with download and print-->
             <object data="Andy Pauley Resume.pdf" width="100%" height="100%"></object>
         </div>
     </div>
+    <!--spacing-->
     <br>
     <br>
     <br>
@@ -57,6 +78,7 @@
     <br>
     <br>
 </body>
+<!--Footer at bottom of page-->
 <footer>
     <p>Thank you for visiting my website!</p>
     <p>Email me at</p>
